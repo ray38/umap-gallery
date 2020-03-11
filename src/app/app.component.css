@@ -1,0 +1,41 @@
+
+
+  .optionsContainer {
+    position: absolute;
+    width: 15rem;
+    left: 1rem;
+    top: 1rem;
+    height: auto;
+    border: 0.0625rem solid darkgray;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 2rem 1rem;
+  }
+
+  .systemPlotContainer{
+    position: absolute;
+    overflow: auto;
+    width: 45rem;
+    height: 60rem;
+    left: 18rem;
+    top: 1rem;
+    border: 0.0625rem solid darkgray;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 2rem 3rem;
+  }
+
+  .referencePlotContainer{
+    position: absolute;
+    overflow: auto;
+    width: 45rem;
+    height: 60rem;
+    left: 70rem;
+    top: 1rem;
+    border: 0.0625rem solid darkgray;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 2rem 3rem;
+  }
+
+  .cdk-overlay-container .cdk-overlay-pane {
+      box-shadow: #333333;
+
+  }

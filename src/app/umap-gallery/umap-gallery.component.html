@@ -1,0 +1,11 @@
+<h6>Systems</h6>
+
+
+<div class="row">
+    <ul id="thumbnailsList">
+        <div *ngFor="let system of visibleSystems">
+            <p>{{system.id}}</p>
+            <img src="{{path + 'systems/' + system.file}}" class="tn" width="600" height="600">
+        </div>
+    </ul>
+</div>

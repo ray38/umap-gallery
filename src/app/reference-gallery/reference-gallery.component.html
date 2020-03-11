@@ -1,0 +1,11 @@
+<h6>References</h6>
+
+
+<div class="row">
+    <ul id="thumbnailsList">
+        <div *ngFor="let system of visibleReferences">
+            <p>{{system.name}}</p>
+            <img src="{{path + 'references/' + system.file}}" class="tn" width="600" height="600">
+        </div>
+    </ul>
+</div>

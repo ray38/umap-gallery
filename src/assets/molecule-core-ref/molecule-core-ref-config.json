@@ -1,0 +1,56 @@
+{
+    "path": "./assets/molecule-core-ref/",
+    "systems": {
+        "C2H2": {
+            "tags":["CC-triple"], 
+            "references": ["C", "H"], 
+            "file": "molecule_C2H2_pseudodensity_core.png"
+        },
+        "C2H4": {
+            "tags":["CC-double"], 
+            "references": ["C", "H"], 
+            "file": "molecule_C2H4_pseudodensity_core.png"
+        },
+        "C2H6": {
+            "tags":["CH", "CC-single"], 
+            "references": ["C", "H"], 
+            "file": "molecule_C2H6_pseudodensity_core.png"
+        },
+        "C6H6": {
+            "tags":["CH", "CC-single", "aromatic"], 
+            "references": ["C", "H"], 
+            "file": "molecule_C6H6_pseudodensity_core.png"
+        },
+        "CH3CH2OH": {
+            "tags":["CH", "CC-single", "CO-single", "OH"], 
+            "references": ["C", "H", "O"], 
+            "file": "molecule_CH3CH2OH_pseudodensity_core.png"
+        },
+        "CH3CHO": {
+            "tags":["CH", "CC-single", "CO-single", "CHO"], 
+            "references": ["C", "H", "O"], 
+            "file": "molecule_CH3CHO_pseudodensity_core.png"
+        },
+        "CH4": {
+            "tags":["CH"], 
+            "references": ["C", "H"], 
+            "file": "molecule_CH4_pseudodensity_core.png"
+        },
+        "CO": {
+            "tags":["CO-triple"], 
+            "references": ["C", "O"], 
+            "file": "molecule_CO_pseudodensity_core.png"
+        },
+        "CO2": {
+            "tags":["CO-double"], 
+            "references": ["C", "O"], 
+            "file": "molecule_CO2_pseudodensity_core.png"
+        }
+    },
+
+    "references": {
+        "C": "core_C_pseudodensity_core.png",
+        "H": "core_H_pseudodensity_core.png",
+        "O": "core_O_pseudodensity_core.png"
+    }
+}
